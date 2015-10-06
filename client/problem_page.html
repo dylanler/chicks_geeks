@@ -1,0 +1,22 @@
+<template name="problemPage">
+	<div class="cent-problem-page spaceing">
+		<div>
+			<li class="list-group-item">
+		        <h3>Person to meet - {{postProblem}}</h3> 
+		    </li>   
+		</div>
+		<div>
+			<li class="list-group-item">
+				<p>Reason #1 - {{postWhy1}}</p>
+				<p>Reason #2 - {{postWhy2}}</p>
+				<p>Reason #3 - {{postWhy3}}</p>
+				<p>Reason #4 - {{postWhy4}}</p>
+				<p>Reason #5 - {{postWhy5}}</p>
+			</li>
+		</div>
+				<li class="list-group-item">
+					<h3>Game Plan - {{postSolution}}</h3>
+				</li>
+			<a href="{{pathFor 'problemsAll'}}"><input type="button" id="problem-page-back" name="problem-page-back" class="btn btn-sample" value="Next Target!"></a>
+	</div>
+</template>
